@@ -38,7 +38,7 @@
             </ul>
         <?php endif; ?>
 
-            </div>
+        </div>
 
             <!-- Side Widget -->
             <div class="card my-4">
