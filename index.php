@@ -20,10 +20,9 @@
                 <?php } ?>
             <div class="card-body">
               <h2 class="card-title"><?php the_title(); ?></h2>
-              <p class="card-text"><?php the_excerpt(); ?></p>
-              <a href="<?php the_permalink(); ?>" class="btn btn-primary">Lire la suite 
-            <i class="fa fa-arrow-right"></i>
-            </a>
+              <p class="card-text"><?php the_content('Read more',true); ?></p>
+
+              <!-- <a href="<?php the_permalink(); ?>" class="btn btn-primary">Lire la suite <i class="fa fa-arrow-right"></i></a> -->
             </div>
             <div class="card-footer text-muted">
               Posted on <?php the_date(); ?> by

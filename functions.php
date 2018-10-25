@@ -35,6 +35,13 @@ function add_menuclass($ulclass) {
 add_filter('wp_nav_menu','add_menuclass');
 /* end menu */
 
+// reade more 
+
+function modify_read_more_link() {
+    return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">'.__('Read more').' <i class="fa fa-arrow-right"></i></a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+
     
     /**
     * loading css
