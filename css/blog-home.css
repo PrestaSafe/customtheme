@@ -17,3 +17,53 @@ body {
 .logged-in .fixed-top {
   top: 31px;
 }
+
+
+.wpcf7-form .contact-form-left {
+  width: 345px;
+  float: left; }
+.wpcf7-form .contact-form-right {
+  width: 516px;
+  float: right; }
+.wpcf7-form p {
+  color: #555555; }
+.wpcf7-form input.wpcf7-form-control {
+  margin: 6px 0 24px 0;
+  padding: 6px 12px;
+  color: #666666;
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  float: left;
+  width: 320px;
+  height: 32px; }
+.wpcf7-form textarea.wpcf7-textarea {
+  height: 200px;
+  margin: 6px 0 24px 0;
+  padding: 3px 12px;
+  color: #666666;
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px; }
+.wpcf7-form input.wpcf7-submit {
+  width: 120px;
+  height: auto;
+  background: #5064f2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  text-shadow: none;
+  box-shadow: none;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  padding: 12px 32px 14px 32px;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  position: relative;
+  top: 0; }
+  .wpcf7-form input.wpcf7-submit:hover {
+    top: -2px;
+    color: white;
+    background: #343434; }

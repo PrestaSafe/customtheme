@@ -74,4 +74,5 @@ function theme_slug_widgets_init() {
     ) );
 }
 
+
 ?>
